@@ -90,6 +90,8 @@ SkyMay-Campus-Event-Social-Platform/
 ```text
 http://localhost/SkyMay-Campus-Event-Social-Platform/
 
+```
+
 ## Project Value
 
 SkyMay provides:
