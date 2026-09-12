@@ -78,13 +78,17 @@ SkyMay-Campus-Event-Social-Platform/
 
 ## How to Run
 
-1. Install a local PHP and MySQL environment such as XAMPP.
-2. Copy the project folder into the XAMPP `htdocs` folder.
-3. Start **Apache** and **MySQL**.
-4. Create a MySQL database named `skymay_db`.
-5. Import the project database into MySQL.
-6. Check the database settings in `db.php`.
-7. Open the project in your browser:
+1. Install **WampServer** on your computer.
+2. Copy the project folder into the WampServer `www` folder.
+3. Start **WampServer** and make sure the Apache and MySQL services are running.
+4. Open **phpMyAdmin** from WampServer.
+5. Create a MySQL database named `skymay_db`.
+6. Import the project database into **phpMyAdmin**.
+7. Check the database settings in `db.php`.
+8. Open the project in your browser:
+
+```text
+http://localhost/SkyMay-Campus-Event-Social-Platform/
 
 ```text
 http://localhost/SkyMay-Campus-Event-Social-Platform/
