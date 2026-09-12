@@ -1,85 +1,66 @@
-SkyMay – Campus Event Social Platform
+# SkyMay - Campus Event Social Platform
 
-SkyMay is a campus event sharing platform that brings workshops, competitions, club activities, talks, and career sessions into one place.
+SkyMay is a campus event social platform that helps students discover and join events, while allowing organizers to publish events and manage participation.
 
-Project Overview
+## About the Project
 
-Students often miss campus opportunities because event information is spread across social media, messaging apps, and email groups. SkyMay provides a central platform where students can discover events, register for activities, and interact with organizers.
+SkyMay brings campus announcements, events, social interaction, and participation tracking into one platform.
 
-Objectives
+### Project Background
 
-Improve event visibility for students
+Students often miss campus opportunities because information is spread across social media, messaging apps, and email groups. SkyMay provides a central platform where students can easily discover and interact with campus events.
 
-Make event publishing easier for organizers
+## Objectives
 
-Allow students to discover and join events
+- Improve event visibility for students
+- Make event publishing easier for organizers
+- Encourage student interaction and participation
+- Provide useful participation insights for administrators
+- Support better management of the campus event community
 
-Support comments and user interaction
+## Target Users
 
-Provide participation insights for administrators
+### Students
+- Discover upcoming events
+- View event details
+- Join events
+- Interact with other users
+- Track participation
 
-Manage the platform using role-based access
+### Organizers
+- Create and publish events
+- Manage event information
+- Receive audience feedback through comments
+- Monitor event participation
 
-Target Users
+### Administrators
+- Manage and moderate the platform
+- Monitor platform activity
+- View useful platform metrics
+- Maintain platform quality
 
-Students
+## Main Features
 
-Browse and discover events
+- User registration and login
+- Role-based access for Students, Organizers, and Admins
+- Event creation and management
+- Event discovery and event details
+- Event registration
+- Comments and likes
+- User and event management
+- Admin dashboard and monitoring
 
-View event details
+## System Architecture
 
-Register for events
+**Frontend:** **HTML, CSS, JavaScript**  
+**Backend:** **PHP**  
+**Database:** **MySQL** (`skymay_db`)
 
-Interact through comments and likes
+The system uses role-based access, secure session handling, dynamic event loading, and structured database relationships for users, events, comments, likes, and registrations.
 
-Organizers
+## Project Structure
 
-Create and publish events
-
-Manage event information
-
-Receive feedback from participants
-
-Monitor event participation
-
-Administrators
-
-Manage users and platform content
-
-Monitor platform activity
-
-Maintain platform quality and security
-
-System Architecture
-
-Frontend: HTML, CSS, JavaScript
-Backend: PHP
-Database: MySQL (skymay_db)
-
-The system uses role-based access, secure sessions, dynamic event loading, and structured database relationships for users, events, comments, likes, and registrations.
-
-Main Features
-
-User registration and login
-
-Role-based access control
-
-Event creation and publishing
-
-Event browsing and event details
-
-Event registration
-
-Comments and likes
-
-Organizer dashboard
-
-Admin management
-
-Contact and messaging functions
-
-Project Structure
-
+```text
 SkyMay-Campus-Event-Social-Platform/
 ├── assets/
 ├── includes/
@@ -87,54 +68,47 @@ SkyMay-Campus-Event-Social-Platform/
 ├── about.php
 ├── admin.php
 ├── contact.php
-├── contact_messages.php
 ├── createevent.php
 ├── db.php
 ├── event.php
 ├── eventdetail.php
-├── faq.php
-├── get_user_registrations.php
 ├── homepage.php
 └── README.md
+```
 
-Requirements
+## How to Run
 
-To run the project locally, you will need:
+1. Install a local PHP and MySQL environment such as XAMPP.
+2. Copy the project folder into the XAMPP `htdocs` folder.
+3. Start **Apache** and **MySQL**.
+4. Create a MySQL database named `skymay_db`.
+5. Import the project database into MySQL.
+6. Check the database settings in `db.php`.
+7. Open the project in your browser:
 
-PHP
-
-MySQL
-
-Apache server (such as XAMPP)
-
-A web browser
-
-Setup
-
-Clone or download this repository.
-
-Place the project folder inside your web server directory, such as htdocs in XAMPP.
-
-Start Apache and MySQL.
-
-Create a MySQL database named skymay_db.
-
-Import the required database tables/data.
-
-Check the database settings in db.php.
-
-Open the project through your local server.
-
-Example:
-
+```text
 http://localhost/SkyMay-Campus-Event-Social-Platform/
+```
 
-Project Purpose
+## Project Value
 
-SkyMay aims to make campus event discovery and participation easier by providing students, organizers, and administrators with a single platform for managing and engaging with campus activities.
+SkyMay provides:
 
-Author
+- **Student Value:** **Easy event discovery, interaction, and participation tracking.**
+- **Organizer Value:** **Simple event publishing and audience feedback.**
+- **Admin Value:** **Central moderation and platform monitoring.**
 
-Ryan Tee (Tee Hui Huang)
+## Future Improvements
 
-This project was developed as a campus event social platform project.
+- Email notifications for event updates
+- Mobile responsive improvements
+- Advanced event search and filtering
+- Event reminders
+- More detailed analytics
+- Improved security and user authentication
+
+## Author
+
+**Tee Hui Huang (Ryan)**
+
+SkyMay - Campus Event Social Platform
